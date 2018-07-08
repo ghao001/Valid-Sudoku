@@ -22,7 +22,7 @@ class Solution {
                         
                     }
                     else{
-                        map.add(board[i][j],new int[8]);
+                        map.put(board[i][j],new int[8][2]);
                     }
                     map.get(board[i][j])[k][0]=i;
                         map.get(board[i][j])[k][1]=j;
